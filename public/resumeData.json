@@ -1,0 +1,196 @@
+{
+  "main": {
+    "name":"LUISA NAILS ART",
+    "description":"En Luisa Nails tenemos el mejor lugar para consentirte y cuidar tus uñas.",
+    "image":"profilepic.jpg",
+    "bio":"Ofrecemos servicios integrales que se adaptan a tu estilo de vida; diseños creativos y técnicas innovadoras en manicure, pedicure, maquillaje, faciales, peinado exprés y depilación con cera española, adicionados con alta tecnología que nos permite atenderte de manera personalizada.",
+    "contactmessage":"Puedes enviarnos un mensaje para agendar tu cita o resolver cualquier tipo de duda.",
+    "email": "Cervantes1608.2019@gmail.com",
+    "phone": "921-321-2561",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"Prol. Juárez num 144 Col. Brunet",
+      "city":"Nanchital",
+      "state":"Veracruz",
+      "zip": "96360"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/marluisa.oc",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Servicios",
+    "education":[
+      {
+        "school":"Gelish",
+        "degree":"¿Qué es el gelish?",
+        "graduated":"",
+        "description":"Es el esmaltado en gel que trata de una técnica que dura mucho más que el esmalte que la mayoría de las mujeres utiliza, dejando las uñas impecables. El procedimiento consiste en la aplicación de una capa de base, dos de esmalte en gel y una de brillo"
+      },
+      {
+        "school":"Manicure",
+        "degree":"¿Qué es la manicura?",
+        "graduated":"",
+        "description":"Operación que consiste en el cuidado , pintura y embellecimiento de las uñas ."
+      },{
+        "school":"Pedicure",
+        "degree":"¿Qué es la Pedicure?",
+        "graduated":"",
+        "description":"La mejor definición de pedicura es: tratamiento cosmético superficial de las uñas de los pies"
+      },{
+        "school":"Uñas acrílicas",
+        "degree":"¿Qué  son las uñas acrilicas?",
+        "graduated":"",
+        "description":"las uñas acrílicas son extensiones que se ponen sobre la uña y tú puedes escoger la longitud que quieras. Después, le pones el esmalte del color que quieras, et voilà!."
+      }
+    ],
+    "work":[
+      {
+        "company":"Aplicación de uñas Acrilicas en TIP",
+        "title":"Curso para principiantes y avanzados",
+        "years":"Disponible todo el Año",
+        "description":"La técnica de creación de uñas acrílicas, consiste en aplicar la mezcla de un polvo y un líquido acrílico, sobre tu uña natural o Tip.Esta mezcla se endurece al contacto con el aire quedando unas uñas fuertes,resistentes y de aspecto natural. La aplicación de las uñas acrílicas puede ser un poco complicada de aprenderen un inicio, pero con la práctica, lograrás crear uñas artificiales bellas y resistentes"
+      },
+      {
+        "company":"Aplicacion de Gelish",
+        "title":"Curso para principiantes y avanzados",
+        "years":"Disponible todo el Año",
+        "description":"Aprenderás hacer manicura y la aplicación correcta con técnica de Gelish en diferentes diseños"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"",
+        "category":"",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"",
+        "category":"",
+        "image":"07.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"08.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"09.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"",
+        "category":"A React based resume website template",
+        "image":"10.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"11.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"12.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+
+    ]
+  }
+}
