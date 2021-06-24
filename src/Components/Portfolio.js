@@ -1,24 +1,12 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
 import Fade from "react-reveal";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
-let id = 0;
+
 class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
-
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
-
-      return (
-        <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-          </div>
-        </div>
-      );
-    });
 
     return (
       <section id="portfolio">
@@ -27,12 +15,26 @@ class Portfolio extends Component {
             <div className="twelve columns collapsed">
               <h1>Estos son algunos de nuestros trabajos.</h1>
 
-              <div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
-              >
-                {projects}
-              </div>
+              <h1> <strong>Manicure</strong></h1>
+                <Carousel>
+                  
+                     {this.props.data.manicure.map(test => {
+                       return (
+                        <div><img width={'50%'} height={'10hv'} alt={test.image} id={`img-${test.alt}`} src={"images/portfolio/manicure/" + test.image}/> </div>) 
+                     })}
+                 
+                </Carousel>
+                <h1> <strong>Pedicure</strong></h1>
+                <Carousel>
+                  
+                     {this.props.data.manicure.map(test => {
+                       return (
+                        <div><img width={'50%'} height={'10hv'} alt={test.image} id={`img-${test.alt}`} src={"images/portfolio/pedicure/" + test.image}/> </div>) 
+                     })}
+                 
+                </Carousel>
+
+                
             </div>
           </div>
         </Fade>
